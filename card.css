@@ -1,0 +1,59 @@
+.card {
+  background-color: green;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: blue;
+  border: 2px solid green;
+}
+
+.card-row {
+  background-color: pink;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  row-gap: 10px;
+  column-gap: 5px;
+  padding: 1rem;
+}
+.card-top {
+  width: 100%;
+  height: 50%;
+}
+.card-botton {
+  background-color: #ffffff;
+  width: 100%;
+  height: 50%;
+  display: grid;
+  place-items: center;
+  
+}
+
+.product-name {
+  font-size: 2rem;
+  color: #0000ff;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.product-price {
+  font-weight: bolder;
+}
+.card-top img {
+  width: 100%;
+  height: 100%;
+
+}
+#chat{
+  background-color:pink ;
+  padding: 1rem;  
+ border-radius: 2rem;
+ position: fixed;
+ bottom: 10%;
+ right: 10%;
+}
+
